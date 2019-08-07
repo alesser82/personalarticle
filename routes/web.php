@@ -11,6 +11,11 @@
 |
 */
 
+//Guest
 Route::get('/', function () {
     return view('guest/index');
+});
+
+Route::get('/about', function () {
+    return view('guest/about');
 });
