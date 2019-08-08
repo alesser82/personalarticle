@@ -12,10 +12,13 @@
 */
 
 //Guest
-Route::get('/', function () {
-    return view('guest/index');
-});
+// Route::get('/', function () {
+//     return view('guest/index');
+// });
 
-Route::get('/about', function () {
-    return view('guest/about');
-});
+// Route::get('/about', function () {
+//     return view('guest/about');
+// });
+
+Route::get('/', 'ArticlesController@homePage');
+Route::get('/about', 'ArticlesController@aboutPage');

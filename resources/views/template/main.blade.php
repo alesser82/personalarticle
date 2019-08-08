@@ -41,10 +41,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="{{url('/')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="{{url('/about')}}">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="post.html">Sample Post</a>
